@@ -1,8 +1,10 @@
 name: CI/CD for meep backend
 
 on:
- push:
-    branches: [ main ]
+workflow_run:
+    workflows: ["build-and-push-api"]
+    types: [completed]
+    branches: [main]
 jobs:
 
   build:
@@ -19,8 +21,6 @@ jobs:
     - run: bun install
 
   deploy:
-
-    needs: build
 
     runs-on: ubuntu-latest 
 
