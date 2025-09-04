@@ -1,7 +1,7 @@
 name: CI/CD for meep backend
 
 on:
-workflow_run:
+  workflow_run:
     workflows: ["build-and-push-api"]
     types: [completed]
     branches: [main]
