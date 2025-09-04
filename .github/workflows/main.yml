@@ -1,6 +1,8 @@
 name: CI/CD for meep backend
 
 on:
+ push:
+    branches: [ main ]
 jobs:
 
   build:
@@ -31,8 +33,5 @@ jobs:
           key: ${{ secrets.PRIVATE_KEY }}
           port: 22
           script: |
-            cd /var/www/meep-site/meep-backend
-            git pull 
-            cd ..
-            cd meep-infra
-            docker compose up -d --build
+            cd /var/www/meep-site/meep-infra       
+            docker compose up 
