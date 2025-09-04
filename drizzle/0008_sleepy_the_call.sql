@@ -1,0 +1,1 @@
+ALTER TABLE `meepsImgs` ADD `imageUrl` text NOT NULL;

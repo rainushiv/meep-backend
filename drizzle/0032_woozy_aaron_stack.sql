@@ -1,0 +1,1 @@
+DROP INDEX `chat_topic_unique`;

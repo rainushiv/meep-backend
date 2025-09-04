@@ -1,0 +1,1 @@
+ALTER TABLE `meepsImgs` RENAME COLUMN "imageName" TO "imageText";

@@ -1,0 +1,1 @@
+ALTER TABLE `chat` ADD `messageTime` integer DEFAULT (current_timestamp) NOT NULL;

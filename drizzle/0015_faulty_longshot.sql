@@ -1,0 +1,1 @@
+ALTER TABLE `notification` ADD `creationTime` integer DEFAULT (current_timestamp) NOT NULL;
