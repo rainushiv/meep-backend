@@ -14,4 +14,4 @@ If you’d like to see it in action, check out the demo video below.
 
 ---
 
-##  Live Demo
+##  Live video (Elasticsearch)
