@@ -7,6 +7,7 @@ scalable data handling.
 ##  Live Demo
 👉 [Live Site](https://shivarly.dev)  
 
+> **Note:** This project requires Node 18+.
 
 ---
 
