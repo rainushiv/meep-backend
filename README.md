@@ -5,11 +5,11 @@ scalable data handling.
 ---
 
 ##  Live Demo
-👉 [Live Site](https://shivarly.dev)  
+ [Live Site](https://shivarly.dev)  
 
-> **Note:** This project requires Node 18+.
+> **Note:** The live demo does not include Elasticsearch because the container is too resource-intensive for the Hetzner server.
+If you’d like to see it in action, check out the demo video below.
 
 ---
 
-##  Screenshots
-_Add 1–2 screenshots or gifs here to show the UI / features._  
+##  Live Demo
