@@ -5,7 +5,7 @@ scalable data handling.
 ---
 
 ##  Live Demo
- [Live Site](https://shivarly.dev)  
+ [Live Site]([https://shivarly.dev](https://shivalry.dev/))  
 
 > **Note:** The live demo does not include Elasticsearch because the container is too resource-intensive for the Hetzner server.
 If you’d like to see it in action, check out the demo video below.
