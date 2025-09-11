@@ -29,16 +29,16 @@ export const chatRoutes = new Hono()
         const data = await c.req.json()
         const messages = data.data
         const topic = data.topic
-        try {
-        const insertchat = await db.insert(chatTable).values({
-            topic: topic,
-            userId: messages.userId,
-            message: messages.text
-        })
-    }catch(err){
-        console.log(err)
+    //     try {
+    //     const insertchat = await db.insert(chatTable).values({
+    //         topic: topic,
+    //         userId: messages.userId,
+    //         message: messages.text
+    //     })
+    // }catch(err){
+    //     console.log(err)
 
-    }
+    // }
         
         return c.json({ message: "success" })
     })

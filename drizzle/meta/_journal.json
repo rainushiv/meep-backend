@@ -232,6 +232,20 @@
       "when": 1755298282920,
       "tag": "0032_woozy_aaron_stack",
       "breakpoints": true
+    },
+    {
+      "idx": 33,
+      "version": "6",
+      "when": 1757618361697,
+      "tag": "0033_wise_dormammu",
+      "breakpoints": true
+    },
+    {
+      "idx": 34,
+      "version": "6",
+      "when": 1757618393280,
+      "tag": "0034_complex_longshot",
+      "breakpoints": true
     }
   ]
 }
