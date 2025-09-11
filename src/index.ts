@@ -61,14 +61,12 @@ const server = Bun.serve<{topic:string}>({
   open(ws) {
       console.log("connected")
       const topic = ws.data.topic
-      console.log(topic)
       ws.subscribe(topic);
     },
     message(ws, message) {
       // this is a group chat
       // so the server re-broadcasts incoming message to everyone
   const msg = JSON.parse(message.toString());
-  console.log(msg)
 
 
       server.publish(ws.data.topic, `${msg.userId}: ${msg.text}`);
